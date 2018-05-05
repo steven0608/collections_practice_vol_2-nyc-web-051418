@@ -68,3 +68,6 @@ schools.each do |x,y|
 end
 organized_schools
 end
+
+
+
