@@ -36,7 +36,7 @@ end.uniq
 end
 
 
-def merged_data(keys,data)
+def merge_data(keys,data)
 
 new_array=[]
 key.each do |name|
