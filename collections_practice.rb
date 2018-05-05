@@ -43,7 +43,7 @@ keys.each do |x|
   data.each do |d|
     if d[first_name]
       same_data=d[first_name]
-      same[:first_name]=first_name
+      same_data[:first_name]=first_name
       merged_data << same_data
     end
   end
