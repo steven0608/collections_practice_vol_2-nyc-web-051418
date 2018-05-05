@@ -66,3 +66,5 @@ schools.each do |x,y|
   organized_schools[y[:location]] || =[]
   organized_schools[y[:location]] << x
 end
+organized_schools
+end
