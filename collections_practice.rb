@@ -60,6 +60,6 @@ end
 end
 
 
-def organized_schools(schools)
+def organize_schools(schools)
 
 end
