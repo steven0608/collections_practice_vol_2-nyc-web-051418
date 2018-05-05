@@ -37,18 +37,19 @@ end
 
 
 def merged_data(keys,data)
-merged_data=[]
+  
+mergedData=[]
 keys.each do |x|
   first_name = x[:first_name]
   data.each do |d|
     if d[first_name]
       same_data=d[first_name]
       same_data[:first_name]=first_name
-      merged_data << same_data
+      mergedData << same_data
     end
   end
 end
-merged_data
+mergedData
 end
 
 
