@@ -63,7 +63,6 @@ end
 def organize_schools(schools)
 organized_schools={}
 schools.each do |x,y|
-  organized_schools[y[:location]] || =[]
   organized_schools[y[:location]] << x
 end
 organized_schools
