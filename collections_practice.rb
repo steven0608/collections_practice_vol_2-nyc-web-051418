@@ -37,7 +37,7 @@ end
 
 
 def merged_data(keys,data)
-  
+
 mergedData=[]
 keys.each do |x|
   first_name = x[:first_name]
