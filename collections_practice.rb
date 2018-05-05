@@ -23,4 +23,14 @@ def remove_non_strings(array)
   end
 end
 
-lear
+def count_elements(array)
+ array.each do |keys|
+   keys[:count] = 0
+   name = keys[:name]
+   array.each {|value|
+   if value[:name] == name
+      keys[:count] += 1
+    end
+  }
+end.uniq
+end
