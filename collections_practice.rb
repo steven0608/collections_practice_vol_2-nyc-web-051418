@@ -29,7 +29,7 @@ def count_elements(array)
    name = keys[:name]
    array.each {|value|
    if value[:name] == name
-      value[:count] += 1
+      keys[:count] += 1
     end
   }
 end.uniq
