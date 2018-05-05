@@ -39,7 +39,7 @@ end
 def merge_data(keys,data)
 
 new_array=[]
-key.each do |name|
+keys.each do |name|
   first_name = name[:first_name]
   data.each do |attributes|
     if attributes[first_name]
