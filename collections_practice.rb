@@ -44,7 +44,7 @@ keys.each do |name|
   data.each do |attributes|
     if attributes[first_name]
       merged_data = attributes[first_name]
-      merged_data[first_name ] = first_name
+      merged_data[:first_name ] = first_name
       new_array << merged_data
     end
   end
