@@ -32,5 +32,5 @@ def count_elements(array)
       value[:count] += 1
     end
   }
-}.uniq
+} array.uniq
 end
