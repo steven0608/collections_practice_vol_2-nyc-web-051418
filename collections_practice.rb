@@ -34,3 +34,18 @@ def count_elements(array)
   }
 end.uniq
 end
+
+
+def merged_data(keys,data)
+  
+end
+
+
+def find_cool(cool)
+  
+end
+
+
+def organized_schools(schools)
+  
+end
