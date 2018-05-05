@@ -37,15 +37,15 @@ end
 
 
 def merged_data(keys,data)
-  
+merged_data
 end
 
 
 def find_cool(cool)
-  
+
 end
 
 
 def organized_schools(schools)
-  
+
 end
