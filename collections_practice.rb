@@ -38,18 +38,18 @@ end
 
 def merge_data(keys,data)
 
-new_array=[]
+mergeData=[]
 keys.each do |x|
   first_name = x[:first_name]
   data.each do |d|
     if d[first_name]
       merged_data = d[first_name]
       merged_data[:first_name ] = first_name
-      new_array << merged_data
+      mergeData << merged_data
     end
   end
 end
-new_array
+mergeData
 end
 
 
