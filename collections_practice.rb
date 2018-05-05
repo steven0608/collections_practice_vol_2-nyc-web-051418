@@ -54,7 +54,9 @@ end
 
 
 def find_cool(cool)
-
+cool.select do |x|
+  x[:temperature]=="cool"
+end
 end
 
 
